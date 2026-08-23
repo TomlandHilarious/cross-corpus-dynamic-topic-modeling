@@ -1,0 +1,202 @@
+[
+  {
+    "condition": "A",
+    "model_source": "COHA",
+    "eval_split": "ALL",
+    "ppl": 6405.07,
+    "n_docs": 6130,
+    "ckpt": "/shared/share_hbr-ilr_nlp/detm_individual_specific_vocab_5year/coha_topic20_min_df100_delta0.01_20260325_214512/detm_coha_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_5e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_pretrain.pt"
+  },
+  {
+    "condition": "A",
+    "model_source": "HBR",
+    "eval_split": "ALL",
+    "ppl": 2399.87,
+    "n_docs": 6133,
+    "ckpt": "/shared/share_hbr-ilr_nlp/detm_individual_specific_vocab_5year/hbr_topic20_min_df100_delta0.01_20260325_214432/detm_hbr_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_5e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_pretrain.pt"
+  },
+  {
+    "condition": "A",
+    "model_source": "ILR",
+    "eval_split": "ALL",
+    "ppl": 1724.89,
+    "n_docs": 6181,
+    "ckpt": "/shared/share_hbr-ilr_nlp/detm_individual_specific_vocab_5year/ilr_topic20_min_df100_delta0.01_20260325_214447/detm_ilr_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_5e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_pretrain.pt"
+  },
+  {
+    "condition": "B",
+    "model_source": "COHA",
+    "eval_split": "ALL",
+    "ppl": 6369.83,
+    "n_docs": 6130,
+    "ckpt": "/shared/share_hbr-ilr_nlp/detm_individual_merged_5year/coha_topic20_min_df100_delta0.01_20260325_214504/detm_coha_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_5e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_pretrain.pt"
+  },
+  {
+    "condition": "B",
+    "model_source": "HBR",
+    "eval_split": "ALL",
+    "ppl": 2385.76,
+    "n_docs": 6133,
+    "ckpt": "/shared/share_hbr-ilr_nlp/detm_individual_merged_5year/hbr_topic20_min_df100_delta0.01_20260325_214416/detm_hbr_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_5e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_pretrain.pt"
+  },
+  {
+    "condition": "B",
+    "model_source": "ILR",
+    "eval_split": "ALL",
+    "ppl": 1767.47,
+    "n_docs": 6181,
+    "ckpt": "/shared/share_hbr-ilr_nlp/detm_individual_merged_5year/ilr_topic20_min_df100_delta0.01_20260325_214347/detm_ilr_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_5e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_pretrain.pt"
+  },
+  {
+    "condition": "C-ALL",
+    "model_source": "ALL",
+    "eval_split": "ALL",
+    "ppl": 3339.92,
+    "n_docs": 18221,
+    "ckpt": "/shared/share_hbr-ilr_nlp/detm_merged_5year/merged_topic20_min_df100_delta0.01_20260325_001151/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_5e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_pretrain.pt"
+  },
+  {
+    "condition": "C-ALL",
+    "model_source": "ALL",
+    "eval_split": "COHA",
+    "ppl": 9819.13,
+    "n_docs": 6042,
+    "ckpt": "/shared/share_hbr-ilr_nlp/detm_merged_5year/merged_topic20_min_df100_delta0.01_20260325_001151/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_5e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_pretrain.pt"
+  },
+  {
+    "condition": "C-ALL",
+    "model_source": "ALL",
+    "eval_split": "HBR",
+    "ppl": 2570.88,
+    "n_docs": 6358,
+    "ckpt": "/shared/share_hbr-ilr_nlp/detm_merged_5year/merged_topic20_min_df100_delta0.01_20260325_001151/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_5e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_pretrain.pt"
+  },
+  {
+    "condition": "C-ALL",
+    "model_source": "ALL",
+    "eval_split": "ILR",
+    "ppl": 1561.29,
+    "n_docs": 5821,
+    "ckpt": "/shared/share_hbr-ilr_nlp/detm_merged_5year/merged_topic20_min_df100_delta0.01_20260325_001151/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_5e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_pretrain.pt"
+  },
+  {
+    "condition": "D",
+    "model_source": "COHA",
+    "eval_split": "COHA",
+    "ppl": 7896.94,
+    "n_docs": 6042,
+    "ckpt": "/shared/share_hbr-ilr_nlp/detm_source_adapted_5year/adapt_kl0.3_anchor1e-3_20260325_015039/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt"
+  },
+  {
+    "condition": "D",
+    "model_source": "HBR",
+    "eval_split": "HBR",
+    "ppl": 2396.78,
+    "n_docs": 6358,
+    "ckpt": "/shared/share_hbr-ilr_nlp/detm_source_adapted_5year/adapt_kl0.3_anchor1e-3_20260325_015039/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt"
+  },
+  {
+    "condition": "D",
+    "model_source": "ILR",
+    "eval_split": "ILR",
+    "ppl": 1486.9,
+    "n_docs": 5821,
+    "ckpt": "/shared/share_hbr-ilr_nlp/detm_source_adapted_5year/adapt_kl0.3_anchor1e-3_20260325_015039/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt"
+  },
+  {
+    "condition": "E",
+    "model_source": "COHA",
+    "eval_split": "ALL",
+    "ppl": 4581.74,
+    "n_docs": 18221,
+    "ckpt": "/shared/share_hbr-ilr_nlp/detm_full_finetune_baseline/coha_fullft_topic20_20260412_122854/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt"
+  },
+  {
+    "condition": "E",
+    "model_source": "COHA",
+    "eval_split": "COHA",
+    "ppl": 6364.36,
+    "n_docs": 6042,
+    "ckpt": "/shared/share_hbr-ilr_nlp/detm_full_finetune_baseline/coha_fullft_topic20_20260412_122854/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt"
+  },
+  {
+    "condition": "E",
+    "model_source": "COHA",
+    "eval_split": "HBR",
+    "ppl": 4327.71,
+    "n_docs": 6358,
+    "ckpt": "/shared/share_hbr-ilr_nlp/detm_full_finetune_baseline/coha_fullft_topic20_20260412_122854/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt"
+  },
+  {
+    "condition": "E",
+    "model_source": "COHA",
+    "eval_split": "ILR",
+    "ppl": 3435.91,
+    "n_docs": 5821,
+    "ckpt": "/shared/share_hbr-ilr_nlp/detm_full_finetune_baseline/coha_fullft_topic20_20260412_122854/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt"
+  },
+  {
+    "condition": "E",
+    "model_source": "HBR",
+    "eval_split": "ALL",
+    "ppl": 5428.86,
+    "n_docs": 18221,
+    "ckpt": "/shared/share_hbr-ilr_nlp/detm_full_finetune_baseline/hbr_fullft_topic20_20260412_122907/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt"
+  },
+  {
+    "condition": "E",
+    "model_source": "HBR",
+    "eval_split": "COHA",
+    "ppl": 34018.72,
+    "n_docs": 6042,
+    "ckpt": "/shared/share_hbr-ilr_nlp/detm_full_finetune_baseline/hbr_fullft_topic20_20260412_122907/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt"
+  },
+  {
+    "condition": "E",
+    "model_source": "HBR",
+    "eval_split": "HBR",
+    "ppl": 2127.39,
+    "n_docs": 6358,
+    "ckpt": "/shared/share_hbr-ilr_nlp/detm_full_finetune_baseline/hbr_fullft_topic20_20260412_122907/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt"
+  },
+  {
+    "condition": "E",
+    "model_source": "HBR",
+    "eval_split": "ILR",
+    "ppl": 2304.58,
+    "n_docs": 5821,
+    "ckpt": "/shared/share_hbr-ilr_nlp/detm_full_finetune_baseline/hbr_fullft_topic20_20260412_122907/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt"
+  },
+  {
+    "condition": "E",
+    "model_source": "ILR",
+    "eval_split": "ALL",
+    "ppl": 6229.31,
+    "n_docs": 18221,
+    "ckpt": "/shared/share_hbr-ilr_nlp/detm_full_finetune_baseline/ilr_fullft_topic20_20260412_122912/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt"
+  },
+  {
+    "condition": "E",
+    "model_source": "ILR",
+    "eval_split": "COHA",
+    "ppl": 59968.7,
+    "n_docs": 6042,
+    "ckpt": "/shared/share_hbr-ilr_nlp/detm_full_finetune_baseline/ilr_fullft_topic20_20260412_122912/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt"
+  },
+  {
+    "condition": "E",
+    "model_source": "ILR",
+    "eval_split": "HBR",
+    "ppl": 3423.85,
+    "n_docs": 6358,
+    "ckpt": "/shared/share_hbr-ilr_nlp/detm_full_finetune_baseline/ilr_fullft_topic20_20260412_122912/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt"
+  },
+  {
+    "condition": "E",
+    "model_source": "ILR",
+    "eval_split": "ILR",
+    "ppl": 1320.03,
+    "n_docs": 5821,
+    "ckpt": "/shared/share_hbr-ilr_nlp/detm_full_finetune_baseline/ilr_fullft_topic20_20260412_122912/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt"
+  }
+]

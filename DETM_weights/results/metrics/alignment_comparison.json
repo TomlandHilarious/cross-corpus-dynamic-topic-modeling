@@ -1,0 +1,150 @@
+{
+  "source_adaptation": {
+    "mode": "source_adaptation",
+    "checkpoint": "/shared/share_hbr-ilr_nlp/detm_source_adapted_5year/adapt_kl0.3_anchor1e-3_20260325_015039/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt",
+    "num_topics": 20,
+    "num_times": 20,
+    "vocab_size": 19433,
+    "pairwise_metrics": [
+      {
+        "corpus_pair": "COHA<->HBR",
+        "same_index_jsd": 0.13549369002355166,
+        "nearest_wrong_jsd": {
+          "COHA->HBR": 0.2436932820897782,
+          "HBR->COHA": 0.24334982047210615,
+          "bidirectional": 0.24352155128094216
+        },
+        "alignment_margin": {
+          "COHA->HBR": 0.10819959206622654,
+          "HBR->COHA": 0.1078561304485545,
+          "bidirectional": 0.10802786125739051
+        },
+        "retrieval_at_1": {
+          "COHA->HBR": 0.875,
+          "HBR->COHA": 0.86,
+          "bidirectional": 0.8674999999999999
+        }
+      },
+      {
+        "corpus_pair": "COHA<->ILR",
+        "same_index_jsd": 0.15526455508453807,
+        "nearest_wrong_jsd": {
+          "COHA->ILR": 0.24369727772491756,
+          "ILR->COHA": 0.24681956837555574,
+          "bidirectional": 0.24525842305023665
+        },
+        "alignment_margin": {
+          "COHA->ILR": 0.08843272264037949,
+          "ILR->COHA": 0.09155501329101767,
+          "bidirectional": 0.08999386796569858
+        },
+        "retrieval_at_1": {
+          "COHA->ILR": 0.865,
+          "ILR->COHA": 0.825,
+          "bidirectional": 0.845
+        }
+      },
+      {
+        "corpus_pair": "HBR<->ILR",
+        "same_index_jsd": 0.11991626277632993,
+        "nearest_wrong_jsd": {
+          "HBR->ILR": 0.24261142648301243,
+          "ILR->HBR": 0.2482482907427156,
+          "bidirectional": 0.245429858612864
+        },
+        "alignment_margin": {
+          "HBR->ILR": 0.1226951637066825,
+          "ILR->HBR": 0.12833202796638565,
+          "bidirectional": 0.12551359583653407
+        },
+        "retrieval_at_1": {
+          "HBR->ILR": 0.98,
+          "ILR->HBR": 0.985,
+          "bidirectional": 0.9824999999999999
+        }
+      }
+    ],
+    "overall_averages": {
+      "same_index_jsd": 0.1368915026281399,
+      "nearest_wrong_jsd": 0.2447366109813476,
+      "alignment_margin": 0.10784510835320771,
+      "retrieval_at_1": 0.8983333333333333
+    }
+  },
+  "full_finetune": {
+    "mode": "full_finetune",
+    "checkpoints": {
+      "COHA": "/shared/share_hbr-ilr_nlp/detm_full_finetune_baseline/coha_fullft_topic20_20260412_122854/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt",
+      "HBR": "/shared/share_hbr-ilr_nlp/detm_full_finetune_baseline/hbr_fullft_topic20_20260412_122907/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt",
+      "ILR": "/shared/share_hbr-ilr_nlp/detm_full_finetune_baseline/ilr_fullft_topic20_20260412_122912/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt"
+    },
+    "num_topics": 20,
+    "num_times": 20,
+    "vocab_size": 19433,
+    "pairwise_metrics": [
+      {
+        "corpus_pair": "COHA<->HBR",
+        "same_index_jsd": 0.49480030877326847,
+        "nearest_wrong_jsd": {
+          "COHA->HBR": 0.4380495507390567,
+          "HBR->COHA": 0.411521503700087,
+          "bidirectional": 0.42478552721957186
+        },
+        "alignment_margin": {
+          "COHA->HBR": -0.05675075803421176,
+          "HBR->COHA": -0.08327880507318147,
+          "bidirectional": -0.07001478155369661
+        },
+        "retrieval_at_1": {
+          "COHA->HBR": 0.0975,
+          "HBR->COHA": 0.22,
+          "bidirectional": 0.15875
+        }
+      },
+      {
+        "corpus_pair": "COHA<->ILR",
+        "same_index_jsd": 0.5442356249485873,
+        "nearest_wrong_jsd": {
+          "COHA->ILR": 0.45024114632016426,
+          "ILR->COHA": 0.4307636874079528,
+          "bidirectional": 0.44050241686405855
+        },
+        "alignment_margin": {
+          "COHA->ILR": -0.09399447862842308,
+          "ILR->COHA": -0.11347193754063456,
+          "bidirectional": -0.10373320808452882
+        },
+        "retrieval_at_1": {
+          "COHA->ILR": 0.065,
+          "ILR->COHA": 0.12,
+          "bidirectional": 0.0925
+        }
+      },
+      {
+        "corpus_pair": "HBR<->ILR",
+        "same_index_jsd": 0.43593378694953666,
+        "nearest_wrong_jsd": {
+          "HBR->ILR": 0.3970139194541849,
+          "ILR->HBR": 0.40096158111229097,
+          "bidirectional": 0.39898775028323796
+        },
+        "alignment_margin": {
+          "HBR->ILR": -0.038919867495351756,
+          "ILR->HBR": -0.034972205837245696,
+          "bidirectional": -0.036946036666298726
+        },
+        "retrieval_at_1": {
+          "HBR->ILR": 0.2125,
+          "ILR->HBR": 0.2,
+          "bidirectional": 0.20625
+        }
+      }
+    ],
+    "overall_averages": {
+      "same_index_jsd": 0.4916565735571308,
+      "nearest_wrong_jsd": 0.42142523145562283,
+      "alignment_margin": -0.07023134210150805,
+      "retrieval_at_1": 0.1525
+    }
+  }
+}

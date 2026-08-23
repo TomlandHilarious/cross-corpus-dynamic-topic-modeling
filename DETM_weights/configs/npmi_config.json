@@ -1,0 +1,44 @@
+{
+  "A": {
+    "COHA": {
+      "ckpt": "/shared/share_hbr-ilr_nlp/detm_individual_specific_vocab_5year/coha_topic20_min_df100_delta0.01_20260325_214512/detm_coha_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_5e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_pretrain.pt",
+      "data_dir": "/shared/share_hbr-ilr_nlp/data_processing_scripts/individual_corpora_specific_vocab_5year_v2/coha/min_df_100"
+    },
+    "HBR": {
+      "ckpt": "/shared/share_hbr-ilr_nlp/detm_individual_specific_vocab_5year/hbr_topic20_min_df100_delta0.01_20260325_214432/detm_hbr_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_5e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_pretrain.pt",
+      "data_dir": "/shared/share_hbr-ilr_nlp/data_processing_scripts/individual_corpora_specific_vocab_5year_v2/hbr/min_df_100"
+    },
+    "ILR": {
+      "ckpt": "/shared/share_hbr-ilr_nlp/detm_individual_specific_vocab_5year/ilr_topic20_min_df100_delta0.01_20260325_214447/detm_ilr_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_5e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_pretrain.pt",
+      "data_dir": "/shared/share_hbr-ilr_nlp/data_processing_scripts/individual_corpora_specific_vocab_5year_v2/ilr/min_df_100"
+    }
+  },
+  "B": {
+    "COHA": {
+      "ckpt": "/shared/share_hbr-ilr_nlp/detm_individual_merged_5year/coha_topic20_min_df100_delta0.01_20260325_214504/detm_coha_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_5e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_pretrain.pt",
+      "data_dir": "/shared/share_hbr-ilr_nlp/data_processing_scripts/individual_corpora_min100_5year_v2/coha/min_df_100"
+    },
+    "HBR": {
+      "ckpt": "/shared/share_hbr-ilr_nlp/detm_individual_merged_5year/hbr_topic20_min_df100_delta0.01_20260325_214416/detm_hbr_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_5e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_pretrain.pt",
+      "data_dir": "/shared/share_hbr-ilr_nlp/data_processing_scripts/individual_corpora_min100_5year_v2/hbr/min_df_100"
+    },
+    "ILR": {
+      "ckpt": "/shared/share_hbr-ilr_nlp/detm_individual_merged_5year/ilr_topic20_min_df100_delta0.01_20260325_214347/detm_ilr_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_5e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_pretrain.pt",
+      "data_dir": "/shared/share_hbr-ilr_nlp/data_processing_scripts/individual_corpora_min100_5year_v2/ilr/min_df_100"
+    }
+  },
+  "C": {
+    "ckpt": "/shared/share_hbr-ilr_nlp/detm_merged_5year/merged_topic20_min_df100_delta0.01_20260325_001151/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_5e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_pretrain.pt",
+    "data_dir": "/shared/share_hbr-ilr_nlp/data_processing_scripts/merged_v2_min100_5year_v2/min_df_100"
+  },
+  "D": {
+    "ckpt": "/shared/share_hbr-ilr_nlp/detm_source_adapted_5year/adapt_kl0.3_anchor1e-3_20260325_015039/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt",
+    "data_dir": "/shared/share_hbr-ilr_nlp/data_processing_scripts/merged_v2_min100_5year_v2/min_df_100"
+  },
+  "E": {
+    "data_dir": "/shared/share_hbr-ilr_nlp/data_processing_scripts/merged_v2_min100_5year_v2/min_df_100",
+    "COHA": "/shared/share_hbr-ilr_nlp/detm_full_finetune_baseline/coha_fullft_topic20_20260412_122854/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt",
+    "HBR": "/shared/share_hbr-ilr_nlp/detm_full_finetune_baseline/hbr_fullft_topic20_20260412_122907/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt",
+    "ILR": "/shared/share_hbr-ilr_nlp/detm_full_finetune_baseline/ilr_fullft_topic20_20260412_122912/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt"
+  }
+}

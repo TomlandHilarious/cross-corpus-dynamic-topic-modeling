@@ -1,0 +1,4 @@
+Source,MeanTop30Overlap,SDTop30Overlap,MeanSourceLocalCount,SDSourceLocalCount,NObservations,K
+COHA,0.8528,0.1063,4.415,3.190,400,30
+HBR,0.7896,0.1026,6.312,3.077,400,30
+ILR,0.7913,0.1311,6.260,3.933,400,30

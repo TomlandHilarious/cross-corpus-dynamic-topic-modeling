@@ -1,0 +1,38 @@
+DETM Evaluation Results
+====================================================================================================
+
+COHA - Corpus-specific:
+  TD: 0.584300
+  TC: 0.036770
+  TQ: 0.021484
+
+HBR - Corpus-specific:
+  TD: 0.530400
+  TC: 0.054301
+  TQ: 0.028801
+
+ILR - Corpus-specific:
+  TD: 0.449400
+  TC: 0.021136
+  TQ: 0.009499
+
+COHA - Merged vocab:
+  TD: 0.581000
+  TC: 0.071871
+  TQ: 0.041757
+
+HBR - Merged vocab:
+  TD: 0.501500
+  TC: 0.053958
+  TQ: 0.027060
+
+ILR - Merged vocab:
+  TD: 0.482400
+  TC: -0.008465
+  TQ: -0.004084
+
+Merged (all corpora):
+  TD: 0.453800
+  TC: 0.423686
+  TQ: 0.192269
+

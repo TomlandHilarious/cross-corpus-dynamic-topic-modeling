@@ -1,0 +1,72 @@
+{
+  "mode": "source_adaptation",
+  "checkpoint": "/shared/share_hbr-ilr_nlp/detm_source_adapted_5year/ablate_a1e-04_s1e-04_e20_20260501_142335/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt",
+  "num_topics": 20,
+  "num_times": 20,
+  "vocab_size": 19433,
+  "pairwise_metrics": [
+    {
+      "corpus_pair": "COHA<->HBR",
+      "same_index_jsd": 0.35672765391076533,
+      "nearest_wrong_jsd": {
+        "COHA->HBR": 0.3452004346832507,
+        "HBR->COHA": 0.27147074999045673,
+        "bidirectional": 0.3083355923368537
+      },
+      "alignment_margin": {
+        "COHA->HBR": -0.011527219227514651,
+        "HBR->COHA": -0.0852569039203086,
+        "bidirectional": -0.04839206157391163
+      },
+      "retrieval_at_1": {
+        "COHA->HBR": 0.38,
+        "HBR->COHA": 0.4625,
+        "bidirectional": 0.42125
+      }
+    },
+    {
+      "corpus_pair": "COHA<->ILR",
+      "same_index_jsd": 0.41626494316049156,
+      "nearest_wrong_jsd": {
+        "COHA->ILR": 0.3595727992006589,
+        "ILR->COHA": 0.29670732351269874,
+        "bidirectional": 0.32814006135667884
+      },
+      "alignment_margin": {
+        "COHA->ILR": -0.056692143959832686,
+        "ILR->COHA": -0.11955761964779282,
+        "bidirectional": -0.08812488180381275
+      },
+      "retrieval_at_1": {
+        "COHA->ILR": 0.2075,
+        "ILR->COHA": 0.385,
+        "bidirectional": 0.29625
+      }
+    },
+    {
+      "corpus_pair": "HBR<->ILR",
+      "same_index_jsd": 0.25400729006989736,
+      "nearest_wrong_jsd": {
+        "HBR->ILR": 0.2596112778794991,
+        "ILR->HBR": 0.2761291836022028,
+        "bidirectional": 0.2678702307408509
+      },
+      "alignment_margin": {
+        "HBR->ILR": 0.0056039878096017515,
+        "ILR->HBR": 0.022121893532305426,
+        "bidirectional": 0.013862940670953589
+      },
+      "retrieval_at_1": {
+        "HBR->ILR": 0.545,
+        "ILR->HBR": 0.6375,
+        "bidirectional": 0.59125
+      }
+    }
+  ],
+  "overall_averages": {
+    "same_index_jsd": 0.3423332957137181,
+    "nearest_wrong_jsd": 0.3014486281447945,
+    "alignment_margin": -0.040884667568923595,
+    "retrieval_at_1": 0.43625
+  }
+}

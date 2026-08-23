@@ -1,0 +1,29 @@
+[
+  {
+    "condition": "D",
+    "source": "COHA",
+    "TD": 0.4610999999999999,
+    "TC": 0.0945806215830427,
+    "TQ": 0.04361112461194098,
+    "n_ref_docs": 32460,
+    "checkpoint": "/shared/share_hbr-ilr_nlp/detm_source_adapted_5year/adapt_kl0.3_anchor1e-3_20260325_015039/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt"
+  },
+  {
+    "condition": "D",
+    "source": "HBR",
+    "TD": 0.44659999999999994,
+    "TC": 0.06383486514191593,
+    "TQ": 0.02850865077237965,
+    "n_ref_docs": 33513,
+    "checkpoint": "/shared/share_hbr-ilr_nlp/detm_source_adapted_5year/adapt_kl0.3_anchor1e-3_20260325_015039/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt"
+  },
+  {
+    "condition": "D",
+    "source": "ILR",
+    "TD": 0.4335,
+    "TC": -0.015685344151491285,
+    "TQ": -0.0067995966896714725,
+    "n_ref_docs": 32615,
+    "checkpoint": "/shared/share_hbr-ilr_nlp/detm_source_adapted_5year/adapt_kl0.3_anchor1e-3_20260325_015039/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt"
+  }
+]

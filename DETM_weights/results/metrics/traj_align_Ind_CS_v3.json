@@ -1,0 +1,132 @@
+{
+  "mode": "ind_cs_trajectory_intersection",
+  "checkpoints": {
+    "COHA": "/shared/share_hbr-ilr_nlp/detm_individual_specific_vocab_5year_v3/coha_topic20_min_df100_delta0.01_20260505_220641/detm_coha_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_5e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_pretrain.pt",
+    "HBR": "/shared/share_hbr-ilr_nlp/detm_individual_specific_vocab_5year_v3/hbr_topic20_min_df100_delta0.01_20260505_220658/detm_hbr_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_5e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_pretrain.pt",
+    "ILR": "/shared/share_hbr-ilr_nlp/detm_individual_specific_vocab_5year_v3/ilr_topic20_min_df100_delta0.01_20260505_220712/detm_ilr_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_5e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_pretrain.pt"
+  },
+  "vocabs": {
+    "COHA": "/shared/share_hbr-ilr_nlp/data_processing_scripts/individual_corpora_specific_vocab_5year_v3/coha/min_df_100/vocab.pkl",
+    "HBR": "/shared/share_hbr-ilr_nlp/data_processing_scripts/individual_corpora_specific_vocab_5year_v3/hbr/min_df_100/vocab.pkl",
+    "ILR": "/shared/share_hbr-ilr_nlp/data_processing_scripts/individual_corpora_specific_vocab_5year_v3/ilr/min_df_100/vocab.pkl"
+  },
+  "vocab_sizes": {
+    "COHA": 19223,
+    "HBR": 18540,
+    "ILR": 15657
+  },
+  "V_common": 15347,
+  "num_topics": 20,
+  "num_times": 20,
+  "pairwise_metrics": [
+    {
+      "corpus_pair": "COHA<->HBR",
+      "same_index_traj_jsd": 0.6215110560461559,
+      "nearest_wrong_traj_jsd": 0.6005784113960826,
+      "nearest_wrong_traj_jsd_ij": 0.5879063386291168,
+      "nearest_wrong_traj_jsd_ji": 0.6132504841630483,
+      "traj_margin": -0.020932644650073273,
+      "traj_retrieval_at_1": 0.05,
+      "traj_retrieval_at_1_ij": 0.05,
+      "traj_retrieval_at_1_ji": 0.05,
+      "hungarian_matched_traj_jsd": 0.6164027417763477,
+      "matching_i_to_j": [
+        18,
+        15,
+        17,
+        14,
+        5,
+        2,
+        0,
+        12,
+        13,
+        8,
+        19,
+        10,
+        4,
+        7,
+        1,
+        9,
+        3,
+        11,
+        6,
+        16
+      ]
+    },
+    {
+      "corpus_pair": "COHA<->ILR",
+      "same_index_traj_jsd": 0.6352917137133316,
+      "nearest_wrong_traj_jsd": 0.5952501642933403,
+      "nearest_wrong_traj_jsd_ij": 0.5655120605256435,
+      "nearest_wrong_traj_jsd_ji": 0.6249882680610371,
+      "traj_margin": -0.040041549419991274,
+      "traj_retrieval_at_1": 0.07500000000000001,
+      "traj_retrieval_at_1_ij": 0.05,
+      "traj_retrieval_at_1_ji": 0.1,
+      "hungarian_matched_traj_jsd": 0.6285488473859651,
+      "matching_i_to_j": [
+        2,
+        12,
+        7,
+        15,
+        10,
+        11,
+        6,
+        1,
+        3,
+        4,
+        16,
+        5,
+        17,
+        19,
+        18,
+        13,
+        14,
+        0,
+        9,
+        8
+      ]
+    },
+    {
+      "corpus_pair": "HBR<->ILR",
+      "same_index_traj_jsd": 0.5495566236106325,
+      "nearest_wrong_traj_jsd": 0.5218417597304805,
+      "nearest_wrong_traj_jsd_ij": 0.5178671978152828,
+      "nearest_wrong_traj_jsd_ji": 0.5258163216456782,
+      "traj_margin": -0.027714863880151985,
+      "traj_retrieval_at_1": 0.025,
+      "traj_retrieval_at_1_ij": 0.0,
+      "traj_retrieval_at_1_ji": 0.05,
+      "hungarian_matched_traj_jsd": 0.5373951031229897,
+      "matching_i_to_j": [
+        2,
+        15,
+        6,
+        17,
+        19,
+        4,
+        3,
+        14,
+        7,
+        16,
+        9,
+        8,
+        1,
+        10,
+        0,
+        18,
+        11,
+        12,
+        13,
+        5
+      ]
+    }
+  ],
+  "overall_averages": {
+    "same_index_traj_jsd": 0.60211979779004,
+    "nearest_wrong_traj_jsd": 0.5725567784733011,
+    "traj_margin": -0.029563019316738843,
+    "traj_retrieval_at_1": 0.049999999999999996,
+    "hungarian_matched_traj_jsd": 0.5941155640951008
+  }
+}

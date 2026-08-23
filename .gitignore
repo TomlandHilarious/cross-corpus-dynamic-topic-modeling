@@ -1,0 +1,15 @@
+# Ignore subdirectories inside data_processing_scripts
+/data_processing_scripts/*/
+
+# Ignore experiment directories
+/detm_full_finetune_baseline/
+/detm_individual_merged_5year_v3/
+/detm_individual_specific_vocab_5year_v3/
+/detm_merged_5year/
+/detm_source_adapted_5year/
+/multiseed_runs/
+
+# Common generated files
+**/.ipynb_checkpoints/
+**/__pycache__/
+*.pyc

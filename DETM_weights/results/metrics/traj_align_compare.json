@@ -1,0 +1,211 @@
+{
+  "shared_backbone": {
+    "mode": "source_adaptation_trajectory",
+    "checkpoint": "/shared/share_hbr-ilr_nlp/detm_source_adapted_5year/adapt_kl0.3_anchor1e-3_20260325_015039/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt",
+    "num_topics": 20,
+    "num_times": 20,
+    "vocab_size": 19433,
+    "pairwise_metrics": [
+      {
+        "same_index_traj_jsd": 0.16619835107886158,
+        "nearest_wrong_traj_jsd": 0.3336163468843085,
+        "nearest_wrong_traj_jsd_ij": 0.3352396426723932,
+        "nearest_wrong_traj_jsd_ji": 0.33199305109622385,
+        "traj_margin": 0.16741799580544695,
+        "traj_retrieval_at_1": 0.95,
+        "traj_retrieval_at_1_ij": 1.0,
+        "traj_retrieval_at_1_ji": 0.9,
+        "corpus_pair": "COHA<->HBR"
+      },
+      {
+        "same_index_traj_jsd": 0.19184194574280927,
+        "nearest_wrong_traj_jsd": 0.33527867564481245,
+        "nearest_wrong_traj_jsd_ij": 0.3303416561660931,
+        "nearest_wrong_traj_jsd_ji": 0.3402156951235318,
+        "traj_margin": 0.14343672990200318,
+        "traj_retrieval_at_1": 1.0,
+        "traj_retrieval_at_1_ij": 1.0,
+        "traj_retrieval_at_1_ji": 1.0,
+        "corpus_pair": "COHA<->ILR"
+      },
+      {
+        "same_index_traj_jsd": 0.15076213581119696,
+        "nearest_wrong_traj_jsd": 0.33256465733190077,
+        "nearest_wrong_traj_jsd_ij": 0.3266561259801671,
+        "nearest_wrong_traj_jsd_ji": 0.3384731886836345,
+        "traj_margin": 0.1818025215207038,
+        "traj_retrieval_at_1": 1.0,
+        "traj_retrieval_at_1_ij": 1.0,
+        "traj_retrieval_at_1_ji": 1.0,
+        "corpus_pair": "HBR<->ILR"
+      }
+    ],
+    "overall_averages": {
+      "same_index_traj_jsd": 0.16960081087762258,
+      "nearest_wrong_traj_jsd": 0.3338198932870073,
+      "traj_margin": 0.16421908240938463,
+      "traj_retrieval_at_1": 0.9833333333333334
+    }
+  },
+  "full_finetune": {
+    "mode": "full_finetune_trajectory",
+    "checkpoints": {
+      "COHA": "/shared/share_hbr-ilr_nlp/detm_full_finetune_baseline/coha_fullft_topic20_20260412_122854/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt",
+      "HBR": "/shared/share_hbr-ilr_nlp/detm_full_finetune_baseline/hbr_fullft_topic20_20260412_122907/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt",
+      "ILR": "/shared/share_hbr-ilr_nlp/detm_full_finetune_baseline/ilr_fullft_topic20_20260412_122912/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt"
+    },
+    "num_topics": 20,
+    "num_times": 20,
+    "vocab_size": 19433,
+    "pairwise_metrics": [
+      {
+        "corpus_pair": "COHA<->HBR",
+        "hungarian_matched_traj_jsd": 0.581703837424198,
+        "matching_i_to_j": [
+          0,
+          1,
+          19,
+          11,
+          3,
+          5,
+          14,
+          7,
+          8,
+          13,
+          10,
+          15,
+          18,
+          4,
+          9,
+          17,
+          12,
+          16,
+          2,
+          6
+        ],
+        "timestamp_match_change_rate": 0.5026315789473684,
+        "per_step_change_rate": [
+          0.3,
+          0.3,
+          0.4,
+          0.45,
+          0.55,
+          0.35,
+          0.6,
+          0.5,
+          0.55,
+          0.75,
+          0.55,
+          0.5,
+          0.55,
+          0.45,
+          0.55,
+          0.55,
+          0.5,
+          0.6,
+          0.55
+        ]
+      },
+      {
+        "corpus_pair": "COHA<->ILR",
+        "hungarian_matched_traj_jsd": 0.6203939807048753,
+        "matching_i_to_j": [
+          5,
+          6,
+          3,
+          2,
+          4,
+          11,
+          14,
+          13,
+          8,
+          10,
+          19,
+          16,
+          12,
+          1,
+          17,
+          15,
+          7,
+          0,
+          18,
+          9
+        ],
+        "timestamp_match_change_rate": 0.4447368421052632,
+        "per_step_change_rate": [
+          0.45,
+          0.35,
+          0.5,
+          0.25,
+          0.45,
+          0.4,
+          0.45,
+          0.45,
+          0.4,
+          0.45,
+          0.5,
+          0.45,
+          0.35,
+          0.5,
+          0.35,
+          0.35,
+          0.45,
+          0.55,
+          0.8
+        ]
+      },
+      {
+        "corpus_pair": "HBR<->ILR",
+        "hungarian_matched_traj_jsd": 0.5162203249271935,
+        "matching_i_to_j": [
+          16,
+          1,
+          5,
+          4,
+          3,
+          15,
+          6,
+          7,
+          8,
+          9,
+          10,
+          19,
+          12,
+          13,
+          14,
+          17,
+          2,
+          0,
+          18,
+          11
+        ],
+        "timestamp_match_change_rate": 0.45526315789473687,
+        "per_step_change_rate": [
+          0.55,
+          0.4,
+          0.35,
+          0.4,
+          0.5,
+          0.55,
+          0.45,
+          0.3,
+          0.35,
+          0.1,
+          0.35,
+          0.6,
+          0.6,
+          0.5,
+          0.55,
+          0.6,
+          0.45,
+          0.35,
+          0.7
+        ]
+      }
+    ],
+    "overall_averages": {
+      "hungarian_matched_traj_jsd": 0.5727727143520889,
+      "timestamp_match_change_rate": 0.4675438596491228
+    }
+  }
+}

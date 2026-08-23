@@ -1,0 +1,8 @@
+[
+  {"anchor": 1e-3, "smooth": 1e-3, "epochs": 20},
+  {"anchor": 3e-4, "smooth": 3e-4, "epochs": 20},
+  {"anchor": 1e-4, "smooth": 1e-4, "epochs": 20},
+  {"anchor": 1e-3, "smooth": 0,    "epochs": 20},
+  {"anchor": 0,    "smooth": 1e-3, "epochs": 20},
+  {"anchor": 0,    "smooth": 0,    "epochs": 20}
+]

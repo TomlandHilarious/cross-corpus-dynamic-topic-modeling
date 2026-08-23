@@ -1,0 +1,29 @@
+[
+  {
+    "condition": "E",
+    "source": "COHA",
+    "TD": 0.569,
+    "TC": 0.11735504187411028,
+    "TQ": 0.06677501882636874,
+    "n_ref_docs": 32460,
+    "checkpoint": "/shared/share_hbr-ilr_nlp/detm_full_finetune_baseline/coha_fullft_topic20_20260412_122854/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt"
+  },
+  {
+    "condition": "E",
+    "source": "HBR",
+    "TD": 0.5660000000000001,
+    "TC": 0.09790931771079758,
+    "TQ": 0.05541667382431144,
+    "n_ref_docs": 33513,
+    "checkpoint": "/shared/share_hbr-ilr_nlp/detm_full_finetune_baseline/hbr_fullft_topic20_20260412_122907/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt"
+  },
+  {
+    "condition": "E",
+    "source": "ILR",
+    "TD": 0.5059,
+    "TC": 0.07795535389520983,
+    "TQ": 0.039437613535586655,
+    "n_ref_docs": 32615,
+    "checkpoint": "/shared/share_hbr-ilr_nlp/detm_full_finetune_baseline/ilr_fullft_topic20_20260412_122912/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt"
+  }
+]

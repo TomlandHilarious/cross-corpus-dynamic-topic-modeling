@@ -1,0 +1,45 @@
+====================================================================================================
+POST-HOC TOPIC MATCHING BASELINE SUMMARY
+====================================================================================================
+
+Number of topics: 20
+Number of time periods: 20
+Corpora: COHA, HBR, ILR
+
+====================================================================================================
+MATCH QUALITY SUMMARY
+====================================================================================================
+
+
+COHA<->HBR:
+  Average JS divergence: 0.477934
+  Match change rate: 0.5026
+  Total match changes: 191
+  Ambiguous cases: 46
+
+COHA<->ILR:
+  Average JS divergence: 0.511889
+  Match change rate: 0.4447
+  Total match changes: 169
+  Ambiguous cases: 37
+
+HBR<->ILR:
+  Average JS divergence: 0.424700
+  Match change rate: 0.4553
+  Total match changes: 173
+  Ambiguous cases: 45
+
+====================================================================================================
+KEY FINDINGS
+====================================================================================================
+
+Post-hoc matching suffers from:
+1. Temporal instability - topics match to different topics over time
+2. Ambiguous matches - multiple plausible matches with similar scores
+3. No guaranteed semantic consistency across corpora
+4. Matching is done independently at each time slice
+
+This demonstrates the superiority of built-in shared topic space where:
+- Topics are aligned by construction
+- Temporal consistency is guaranteed
+- Matches are deterministic and stable

@@ -1,0 +1,72 @@
+{
+  "mode": "source_adaptation",
+  "checkpoint": "/shared/share_hbr-ilr_nlp/detm_source_adapted_5year/ablate_a3e-04_s3e-04_e20_20260501_140344/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_1e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_lora_r8.pt",
+  "num_topics": 20,
+  "num_times": 20,
+  "vocab_size": 19433,
+  "pairwise_metrics": [
+    {
+      "corpus_pair": "COHA<->HBR",
+      "same_index_jsd": 0.2828470520830887,
+      "nearest_wrong_jsd": {
+        "COHA->HBR": 0.30742161642731197,
+        "HBR->COHA": 0.25438831357867536,
+        "bidirectional": 0.28090496500299367
+      },
+      "alignment_margin": {
+        "COHA->HBR": 0.024574564344223282,
+        "HBR->COHA": -0.028458738504413328,
+        "bidirectional": -0.001942087080095023
+      },
+      "retrieval_at_1": {
+        "COHA->HBR": 0.62,
+        "HBR->COHA": 0.585,
+        "bidirectional": 0.6025
+      }
+    },
+    {
+      "corpus_pair": "COHA<->ILR",
+      "same_index_jsd": 0.32437810589848093,
+      "nearest_wrong_jsd": {
+        "COHA->ILR": 0.303334904708891,
+        "ILR->COHA": 0.26833805160493324,
+        "bidirectional": 0.28583647815691215
+      },
+      "alignment_margin": {
+        "COHA->ILR": -0.02104320118958991,
+        "ILR->COHA": -0.05604005429354769,
+        "bidirectional": -0.0385416277415688
+      },
+      "retrieval_at_1": {
+        "COHA->ILR": 0.4125,
+        "ILR->COHA": 0.485,
+        "bidirectional": 0.44875
+      }
+    },
+    {
+      "corpus_pair": "HBR<->ILR",
+      "same_index_jsd": 0.20947398966758768,
+      "nearest_wrong_jsd": {
+        "HBR->ILR": 0.24960200965049623,
+        "ILR->HBR": 0.2665556334218313,
+        "bidirectional": 0.2580788215361638
+      },
+      "alignment_margin": {
+        "HBR->ILR": 0.04012801998290855,
+        "ILR->HBR": 0.05708164375424363,
+        "bidirectional": 0.04860483186857609
+      },
+      "retrieval_at_1": {
+        "HBR->ILR": 0.7,
+        "ILR->HBR": 0.7775,
+        "bidirectional": 0.73875
+      }
+    }
+  ],
+  "overall_averages": {
+    "same_index_jsd": 0.27223304921638575,
+    "nearest_wrong_jsd": 0.2749400882320232,
+    "alignment_margin": 0.002707039015637421,
+    "retrieval_at_1": 0.5966666666666667
+  }
+}

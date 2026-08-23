@@ -1,0 +1,30 @@
+{
+  "A": {
+    "COHA": {
+      "ckpt": "/shared/share_hbr-ilr_nlp/detm_individual_specific_vocab_5year_v3/coha_topic20_min_df100_delta0.01_20260505_220641/detm_coha_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_5e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_pretrain.pt",
+      "data_dir": "/shared/share_hbr-ilr_nlp/data_processing_scripts/individual_corpora_specific_vocab_5year_v3/coha/min_df_100"
+    },
+    "HBR": {
+      "ckpt": "/shared/share_hbr-ilr_nlp/detm_individual_specific_vocab_5year_v3/hbr_topic20_min_df100_delta0.01_20260505_220658/detm_hbr_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_5e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_pretrain.pt",
+      "data_dir": "/shared/share_hbr-ilr_nlp/data_processing_scripts/individual_corpora_specific_vocab_5year_v3/hbr/min_df_100"
+    },
+    "ILR": {
+      "ckpt": "/shared/share_hbr-ilr_nlp/detm_individual_specific_vocab_5year_v3/ilr_topic20_min_df100_delta0.01_20260505_220712/detm_ilr_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_5e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_pretrain.pt",
+      "data_dir": "/shared/share_hbr-ilr_nlp/data_processing_scripts/individual_corpora_specific_vocab_5year_v3/ilr/min_df_100"
+    }
+  },
+  "B": {
+    "COHA": {
+      "ckpt": "/shared/share_hbr-ilr_nlp/detm_individual_merged_5year_v3/coha_topic20_min_df100_delta0.01_20260505_220506/detm_coha_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_5e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_pretrain.pt",
+      "data_dir": "/shared/share_hbr-ilr_nlp/data_processing_scripts/individual_corpora_min100_5year_v3/coha/min_df_100"
+    },
+    "HBR": {
+      "ckpt": "/shared/share_hbr-ilr_nlp/detm_individual_merged_5year_v3/hbr_topic20_min_df100_delta0.01_20260505_220538/detm_hbr_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_5e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_pretrain.pt",
+      "data_dir": "/shared/share_hbr-ilr_nlp/data_processing_scripts/individual_corpora_min100_5year_v3/hbr/min_df_100"
+    },
+    "ILR": {
+      "ckpt": "/shared/share_hbr-ilr_nlp/detm_individual_merged_5year_v3/ilr_topic20_min_df100_delta0.01_20260505_220605/detm_ilr_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_5e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_pretrain.pt",
+      "data_dir": "/shared/share_hbr-ilr_nlp/data_processing_scripts/individual_corpora_min100_5year_v3/ilr/min_df_100"
+    }
+  }
+}

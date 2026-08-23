@@ -1,0 +1,11 @@
+[
+  {
+    "condition": "C-ALL",
+    "source": "ALL",
+    "TD": 0.45380000000000004,
+    "TC": 0.16852576441562564,
+    "TQ": 0.07647699189181092,
+    "n_ref_docs": 98588,
+    "checkpoint": "/shared/share_hbr-ilr_nlp/detm_merged_5year/merged_topic20_min_df100_delta0.01_20260325_001151/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_5e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_pretrain.pt"
+  }
+]

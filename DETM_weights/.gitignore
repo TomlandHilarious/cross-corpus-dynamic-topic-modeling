@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.log
+*logfile*
+*.pt
+*.pth
+*.ckpt
+*.tar
+*.tar.gz
+*.npy
+*.npz
+results/logs/
+results/tmp/
+scratch/
