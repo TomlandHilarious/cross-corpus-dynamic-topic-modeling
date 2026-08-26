@@ -1,4 +1,4 @@
-#!/user/rl3403/.conda/envs/nlp_kogut/bin/python
+#!/usr/bin/env python
 ROOT = "Merged_1920plus"
 
 """

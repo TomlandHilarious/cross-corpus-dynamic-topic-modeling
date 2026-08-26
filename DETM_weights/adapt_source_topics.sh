@@ -36,7 +36,7 @@ FREEZE_RHO=1                      # 1=freeze word embeddings, 0=train
 FREEZE_ALPHA=1                    # 1=freeze shared alpha_global, 0=train
 
 # ---------- Paths ----------
-PYTHON="/user/rl3403/.conda/envs/nlp_kogut/bin/python"
+PYTHON="${PYTHON:-python}"
 MAIN_PY="$SCRIPT_DIR/main.py"
 DATA_DIR="$PROJECT_ROOT/data_processing_scripts/merged_v2_min100_5year_v2"
 EMB_PATH="$DATA_DIR/min_df_${MIN_DF}/merged_embedding.npy"

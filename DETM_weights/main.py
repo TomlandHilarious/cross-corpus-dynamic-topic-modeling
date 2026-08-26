@@ -1,4 +1,4 @@
-#!/user/rl3403/.conda/envs/nlp_kogut/bin/python
+#!/usr/bin/env python
 
 from __future__ import print_function
 
@@ -1340,19 +1340,19 @@ def get_completion_ppl(source):
                 beta = model.get_beta(alpha_td).permute(1, 0, 2)
                 loglik = theta.unsqueeze(2) * beta
                 loglik = loglik.sum(1)
-                # 添加一个小的epsilon值避免log(0)
+                # Add a small epsilon to avoid log(0)
                 loglik = torch.log(loglik + 1e-10)
                 nll = -loglik * data_batch_2
                 nll = nll.sum(-1)
-                # 确保除数不为0
+                # Ensure the divisor is nonzero
                 safe_sums = torch.clamp(sums_2.squeeze(), min=1e-10)
                 loss = nll / safe_sums
                 loss = loss.mean().item()
                 acc_loss += loss
                 cnt += 1
-            cur_loss = acc_loss / max(cnt, 1)  # 避免除以0
-            # 限制cur_loss的大小，避免exp溢出
-            cur_loss = min(cur_loss, 100)  # 限制最大值
+            cur_loss = acc_loss / max(cnt, 1)  # Avoid division by zero
+            # Bound cur_loss to avoid overflow in exp
+            cur_loss = min(cur_loss, 100)  # Cap the maximum value
             ppl_dc = round(math.exp(cur_loss), 1)
             print('*'*100)
             print('{} Doc Completion PPL: {}'.format(source.upper(), ppl_dc))

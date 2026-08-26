@@ -1,4 +1,4 @@
-#!/user/rl3403/.conda/envs/nlp_kogut/bin/python
+#!/usr/bin/env python
 
 """
 Merged dataset preprocessing script with corpus-specific handling.

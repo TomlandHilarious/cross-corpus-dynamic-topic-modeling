@@ -4,7 +4,7 @@
 #   Run this BEFORE training with the rebinned training scripts
 ###############################################################################
 
-PYTHON="/user/rl3403/.conda/envs/nlp_kogut/bin/python"
+PYTHON="${PYTHON:-python}"
 REBIN_SCRIPT="/shared/share_hbr-ilr_nlp/data_processing_scripts/rebin_timestamps.py"
 
 BIN_SIZE=5  # Change this to 2, 3, 5, etc.

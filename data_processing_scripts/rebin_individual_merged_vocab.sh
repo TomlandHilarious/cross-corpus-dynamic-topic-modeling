@@ -4,7 +4,7 @@
 # Creates: individual_corpora_min100_5year/{hbr,coha,ilr}/min_df_100/
 ###############################################################################
 
-PYTHON="/user/rl3403/.conda/envs/nlp_kogut/bin/python"
+PYTHON="${PYTHON:-python}"
 REBIN_SCRIPT="/shared/share_hbr-ilr_nlp/data_processing_scripts/rebin_timestamps.py"
 INPUT_BASE="/shared/share_hbr-ilr_nlp/data_processing_scripts/individual_corpora_min100"
 OUTPUT_BASE="/shared/share_hbr-ilr_nlp/data_processing_scripts/individual_corpora_min100_5year_v2"

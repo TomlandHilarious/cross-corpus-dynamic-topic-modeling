@@ -3,7 +3,7 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
-PYTHON="/user/rl3403/.conda/envs/nlp_kogut/bin/python"
+PYTHON="${PYTHON:-python}"
 RUN_ROOT="${PROJECT_ROOT}/multiseed_runs/k_sensitivity_seed2019"
 ALIGN_SCRIPT="${SCRIPT_DIR}/alignment_metrics_trajectory.py"
 K_ARG="${1:-all}"

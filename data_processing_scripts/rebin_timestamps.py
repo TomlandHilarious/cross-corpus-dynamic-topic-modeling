@@ -1,4 +1,4 @@
-#!/user/rl3403/.conda/envs/nlp_kogut/bin/python
+#!/usr/bin/env python
 """
 Rebin temporal resolution of preprocessed DETM data.
 Takes existing yearly data and creates N-year bins (e.g., 2-year, 5-year intervals).

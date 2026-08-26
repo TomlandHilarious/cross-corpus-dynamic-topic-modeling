@@ -1,4 +1,4 @@
-#!/user/rl3403/.conda/envs/nlp_kogut/bin/python
+#!/usr/bin/env python
 
 """
 Analyze document length distributions from merged dataset by source.

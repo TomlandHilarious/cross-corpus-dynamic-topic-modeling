@@ -21,7 +21,7 @@ KL_WEIGHT_MAX=0.9  # Cap KL weight to prevent TC plateau (default 1.0)
 SAVE_CHECKPOINT_EVERY=5  # Save checkpoint every N epochs (0=only best)
 # NOTE: num_times is auto-detected from data (will be ~20 for 5-year bins)
 
-PYTHON="/user/rl3403/.conda/envs/nlp_kogut/bin/python"
+PYTHON="${PYTHON:-python}"
 MAIN_PY="$SCRIPT_DIR/main.py"
 
 # Use merged vocabulary with 5-year rebinned timestamps (ILR only)

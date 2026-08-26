@@ -3,7 +3,7 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
-PYTHON="/user/rl3403/.conda/envs/nlp_kogut/bin/python"
+PYTHON="${PYTHON:-python}"
 ALIGN_SCRIPT="${SCRIPT_DIR}/alignment_metrics_trajectory.py"
 BASELINE_ROOT="${PROJECT_ROOT}/detm_full_finetune_baseline"
 METRICS_DIR="${SCRIPT_DIR}/results/metrics"

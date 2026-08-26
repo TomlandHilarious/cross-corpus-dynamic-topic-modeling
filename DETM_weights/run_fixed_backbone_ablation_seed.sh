@@ -8,7 +8,7 @@ SEED="${1:?Usage: $0 SEED CUDA_DEVICE}"
 CUDA_DEVICE="${2:?Usage: $0 SEED CUDA_DEVICE}"
 SEED_PADDED=$(printf "%04d" "$SEED")
 
-PYTHON="/user/rl3403/.conda/envs/nlp_kogut/bin/python"
+PYTHON="${PYTHON:-python}"
 ABLATE_PY="$SCRIPT_DIR/ablate_adaptation.py"
 
 BACKBONE_CKPT="$PROJECT_ROOT/detm_merged_5year/merged_topic20_min_df100_delta0.01_20260325_001151/detm_merged_K_20_Htheta_800_Optim_adam_Clip_2.0_ThetaAct_relu_Lr_5e-05_Bsz_500_RhoSize_300_L_3_minDF_100_trainEmbeddings_1_pretrain.pt"

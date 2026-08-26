@@ -1,4 +1,4 @@
-#!/user/rl3403/.conda/envs/nlp_kogut/bin/python 
+#!/usr/bin/env python
 """
 Evaluate all retrained DETM models and generate metrics table.
 Computes TD (Topic Diversity), TC (Topic Coherence), TQ (Topic Quality = TD * TC)

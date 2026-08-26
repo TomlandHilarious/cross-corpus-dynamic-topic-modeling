@@ -27,7 +27,7 @@ FT_LR=1e-5
 FT_WARMUP_EPOCHS=5
 FT_KL_WEIGHT_MAX=0.3
 
-PYTHON="/user/rl3403/.conda/envs/nlp_kogut/bin/python"
+PYTHON="${PYTHON:-python}"
 MAIN_PY="$SCRIPT_DIR/main.py"
 DATA_DIR="$PROJECT_ROOT/data_processing_scripts/merged_v2_min100_5year_v2"
 EMB_PATH="$DATA_DIR/min_df_${MIN_DF}/merged_embedding.npy"

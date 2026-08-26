@@ -33,7 +33,7 @@ import time
 from datetime import datetime
 
 REPO  = str(Path(__file__).resolve().parent)
-PY    = '/user/rl3403/.conda/envs/nlp_kogut/bin/python'
+PY    = os.environ.get('PYTHON', 'python')
 MAIN  = f'{REPO}/main.py'
 EVAL  = f'{REPO}/evaluate_npmi_robustness.py'
 

@@ -1,4 +1,4 @@
-#!/user/rl3403/.conda/envs/nlp_kogut/bin/python
+#!/usr/bin/env python
 """
 Evaluate Source Adaptation Model: Per-Source TC/TD/TQ
 

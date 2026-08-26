@@ -1,4 +1,4 @@
-#!/user/rl3403/.conda/envs/nlp_kogut/bin/python
+#!/usr/bin/env python
 """
 Split merged corpus data into individual COHA/HBR/ILR datasets.
 Keeps the same vocab and embeddings for fair comparison.

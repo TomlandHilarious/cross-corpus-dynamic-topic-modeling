@@ -32,7 +32,7 @@ EMB_PATH="$DATA_DIR/min_df_${MIN_DF}/merged_embedding.npy"
 SOURCE_FILTER="COHA"  # Filter to only COHA documents
 
 # ---------- Paths ----------
-PYTHON="/user/rl3403/.conda/envs/nlp_kogut/bin/python"
+PYTHON="${PYTHON:-python}"
 MAIN_PY="$SCRIPT_DIR/main.py"
 
 TIMESTAMP=$(date +'%Y%m%d_%H%M%S')

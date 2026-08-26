@@ -1,4 +1,4 @@
-#!/user/rl3403/.conda/envs/nlp_kogut/bin/python
+#!/usr/bin/env python
 """
 Create corpus-specific vocabularies for individual DETM training.
 This filters the merged vocabulary to only include words that appear in each corpus,
